@@ -69,6 +69,11 @@ When learning the basic syntax however, do not be too concerned over the version
 
 These are the skills that you should have independent of Python programming knowledge that are important to use Python professionally. If you are unfamiliar with any of these concepts, we recommend that you complete the tutorials before you start learning any advanced concepts.
 
+[1.2.1 Git and version control](#121-git-and-version-control) \
+[1.2.2 Basic command line knowledge](#122-basic-command-line-knowledge) \
+[1.2.3 Using IDEs](#123-using-ides) \
+[1.2.4 Basic SQL](#124-basic-sql)
+
 #### 1.2.1 Git and version control
 
 :gift_heart: :movie_camera: [Introduction to Git and GitHub](https://youtu.be/RGOj5yH7evk)
@@ -124,8 +129,9 @@ If you have got this far, well done! You have now completed the basics and are r
 [2.3 Comprehensions, Iterators, and Generators](#23-comprehensions-iterators-and-generators) \
 [2.4 Map, Reduce, and Lambda functions](#24-map-reduce-and-lambda-functions) \
 [2.5 Regular Expressions](#25-regular-expressions) \
-[2.6 Advanced built-in modules](#26-advanced-built-in-modules) \
-[2.7 Caching](#27-caching)
+[2.6 Caching](#26-caching) \
+[2.7 Multi-processing and multi-threading](#27-multi-processing-and-multi-threading) \
+[2.8 Other advanced syntax and concepts](#28-other-advanced-syntax-and-concepts)
 
 ### 2.1 Data structures and Algorithms
 
@@ -151,7 +157,7 @@ Python is an object-oriented programming language. This means that it supports o
 
 ### 2.3 Comprehensions, Itertools, and Generators
 
-Although Python is an object-oriented programming language, it also supports functional programming concepts such as comprehensions. In this section, we will link to resources that cover these concepts.
+Although Python is an object-oriented programming language, it also supports functional programming concepts such as comprehensions (If you're wondering what we mean by object-oriented programming and functional programming, and the differences between them, checkout this [article](https://www.geeksforgeeks.org/difference-between-functional-programming-and-object-oriented-programming/)). In this section, we will link to resources that cover these concepts.
 
 :gift_heart: :closed_book: [Comprehensions in Python](https://realpython.com/list-comprehension-python/)
 
@@ -167,6 +173,8 @@ Although Python is an object-oriented programming language, it also supports fun
 
 ### 2.4 Map, Reduce, and Lambda functions
 
+Map, Reduce, and Lambda functions are functional components in Python that are used to perform operations on lists. In this section, we will link to resources that cover these concepts.
+
 :gift_heart: :movie_camera: [Lambda in Python - Advanced Python 08 - Programming Tutorial - Map Filter Reduce](https://www.youtube.com/watch?v=D2TJ9wvSP94)
 
 :gift_heart: :movie_camera: [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo); this video covers multiple intermediate python concepts that are applicable to many topics in this section
@@ -177,29 +185,84 @@ Although Python is an object-oriented programming language, it also supports fun
 
 ### 2.5 Regular Expressions
 
-:gift_heart: :movie_camera: [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo); this video covers multiple intermediate python concepts that are applicable to many topics in this section
-
-### 2.6 Advanced built-in modules
-
-### 2.7 Caching
-
-### 2.8 Multi-processing and multi-threading
+Regular expressions or "regex" are a powerful tool that can be used to search for patterns in text. In Python, regular expressions are implemented in the `re` module. 
 
 :gift_heart: :movie_camera: [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo); this video covers multiple intermediate python concepts that are applicable to many topics in this section
+
+:gift_heart: :movie_camera: [Regular Expressions in Python](https://www.youtube.com/watch?v=nxjwB8up2gI)
+
+:gift_heart: :closed_book: [Regular Expressions: Regexes in Python](https://realpython.com/regex-python/)
+
+### 2.6 Caching
+
+Caching is a technique that is used to improve the performance of applications.
+
+:gift_heart: :movie_camera: [The single most useful decorator in Python](https://www.youtube.com/watch?v=DnKxKFXB4NQ)
+
+:gift_heart: :closed_book: [Caching in Python using the LRU Cache strategy](https://realpython.com/lru-cache-python)
+
+
+### 2.7 Multi-processing and multi-threading
+
+:gift_heart: :movie_camera: [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo); this video covers multiple intermediate python concepts that are applicable to many topics in this section
+
+:gift_heart: :closed_book: [Multi-processing in Python](https://realpython.com/python-concurrency/)
+
+:gift_heart: :movie_camera: [Next-Level Concurrent Programming In Python With Asyncio](https://www.youtube.com/watch?v=GpqAQxH1Afc)
+
+### 2.8 Other advanced syntax and concepts
+
+Here we provide resources for other advanced Python concepts that are not covered in the previous sections but are enormously useful for Python developers.
+
+:gift_heart: :movie_camera: [Dunder/Magic Methods](https://www.youtube.com/watch?v=z11P9sojHuM)
+
+:gift_heart: :movie_camera: [Decorators](https://www.youtube.com/watch?v=tfCz563ebsU)
+
+:gift_heart: :movie_camera: [Encapsulation](https://www.youtube.com/watch?v=FDdfGFhY9Ms)
+
+:gift_heart: :movie_camera: [Python dataclasses will save you HOURS](https://www.youtube.com/watch?v=vBH6GRJ1REM)
+
+:gift_heart: :movie_camera: [Collections](https://www.youtube.com/watch?v=QswQA1lRIQY)
 
 ## 3 Testing and quality control
-
-### 3.1 Unittest
  
-### 3.2 PyTest
+When you write production ready Python code, you should always write tests for your code. This is because tests are a great way to ensure that your code is working as expected. In this section, we will link to resources that cover some of the most common testing and quality control concepts.
 
-### 3.3 Linting, formatting, and Pre-commit
+There are a few different tools that can be used to write tests in Python and to quality check your code. We recommend using PyTest and a few specific tools for quality assurance, and will link to resources that cover these tools.
 
-### 3.4 Documentation
+### 3.1 PyTest
 
-### 3.5 Logging
+:gift_heart: :closed_book: [Effective Python Testing With Pytest](https://realpython.com/pytest-python-testing/)
+
+:gift_heart: :movie_camera: [PyTest Tutorial | Unit Testing Framework In Python](https://www.youtube.com/watch?v=byaxg00Gf9I)
+
+### 3.2 Linting, formatting, and Pre-commit
+
+:gift_heart: :closed_book: [Linting and Formatting in Python](https://realpython.com/python-code-quality/); recommended reading for all
+
+:gift_heart: :movie_camera: [Keeping your repo tidy with Pre-commit](https://www.youtube.com/watch?v=psjz6rwzMdk); recommended video for all
+
+### 3.3 Documentation
+
+Writing documentation for your code is a great way to ensure that your code is easy to understand and use. All Python developers at Zifo are required to write docstrings and documentation for their code. 
+
+:gift_heart: :movie_camera: [Python Docstrings | Python Best Practices](https://www.youtube.com/watch?v=0YUdYk5E-w4); recommended video for all
+
+:gift_heart: :movie_camera: [Top 5 Ways To Document Your Code](https://www.youtube.com/watch?v=uPMxUnBjGG8); recommended video for all
+
+### 3.4 Logging
+
+:gift_heart: :movie_camera: [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo); this video covers multiple intermediate python concepts that are applicable to many topics in this section
+
+:gift_heart: :movie_camera: [Logging in Python || Learn Python Programming](https://www.youtube.com/watch?v=g8nQ90Hk328)
+
+:gift_heart: :closed_book: [Logging in Python](https://realpython.com/python-logging/)
+
+### 3.5 Type hints
 
 ## 4 Web development frameworks
+
+Congratulations, you have completed the core Python sections and mandatory content! It is no
 
 ### 4.1 Flask
 
