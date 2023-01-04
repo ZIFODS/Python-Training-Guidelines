@@ -232,6 +232,12 @@ When you write production ready Python code, you should always write tests for y
 
 There are a few different tools that can be used to write tests in Python and to quality check your code. We recommend using PyTest and a few specific tools for quality assurance, and will link to resources that cover these tools.
 
+[3.1 PyTest](#31-pytest) \
+[3.2 Linting, formatting, and Pre-commit](#32-linting-formatting-and-pre-commit)\
+[3.3 Documentation](#33-documentation)\
+[3.4 Logging](#34-logging)\
+[3.5 Type hints](#35-type-hints)
+
 ### 3.1 PyTest
 
 :gift_heart: :closed_book: [Effective Python Testing With Pytest](https://realpython.com/pytest-python-testing/)
@@ -283,23 +289,73 @@ You can choose from the following topics:
 
 ## 4 Web development frameworks
 
-There are many different web development frameworks that can be used to build web applications in Python. Here we will cover resources for the most popular frameworks. It is best to focus on one framework to begin with, and then move on to others once you have a good understanding of web development in Python.
+There are many different web development frameworks that can be used to build web applications in Python. Here we will cover resources for the most popular frameworks. It is best to focus on one framework to begin with, and then move on to others once you have a good understanding of web development in Python. If you are new to web development, we recommend starting with Flask or FastAPI.
+
+**Note** - python is typically used for the backend of web applications, and Javascript is typically used for the frontend. The resources here will focus on Python, but should you require resources for learning Javascript and frontend development, we recommend starting with the [Front End Development Library certification on freeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/). You should then investigate resources for full-stack development with Python.
+
+[4.1 Flask](#41-flask) \
+[4.2 Django](#42-django) \
+[4.3 FastAPI](#43-fastapi) \
+[4.4 Testing with Selenium](#44-testing-with-selenium)
 
 ### 4.1 Flask
 
+Flask is a lightweight and flexible web development framework that is very popular in the Python community. Compared to Django, Flask is much simpler and easier to learn, but requires more work to set up and configure.
+
+:gift_heart: :movie_camera: [Flask Course - Python Web Application Development](https://www.youtube.com/watch?v=Qr4QMBUPxWo)
+
+:gift_heart: :closed_book: [Flask Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/)
+
 ### 4.2 Django
+
+Django is a popular web development framework that is used to build large and complex web applications. Django is more complex than Flask, but is much more powerful and flexible. It also has a large community of developers and a lot of documentation.
+
+:gift_heart: :movie_camera: [Python Backend Web Development Course (with Django)](https://youtu.be/jBzwzrDvZ18?t=13108); watch from 3:38:28 onwards.
+
+:gift_heart: :movie_camera: [Django / Tailwind Tutorial - Code a Netflix Clone](https://www.youtube.com/watch?v=gbyYXgiSgdM); comprehensive practice project for Django but requires some prior understanding
+
+:gift_heart: :closed_book: [Official Django Tutorials](https://docs.djangoproject.com/en/4.1/)
 
 ### 4.3 FastAPI
 
-### 4.4 Tornado
+FastAPI is a modern and fast web development framework that is built on top of Python's standard library. FastAPI is ideal for building APIs and microservices, and is very popular in the data science community.
 
-### 4.5 Testing with Selenium
+:gift_heart: :movie_camera: [FastAPI Course for Beginners](https://www.youtube.com/watch?v=tLKKmouUams)
+
+:gift_heart: :closed_book: [FastAPI Documentation](https://fastapi.tiangolo.com/)
+
+### 4.4 Testing with Selenium
+
+Selenium is a popular tool for testing web applications. It can be used to automate the testing of web applications, and can be used to test both frontend and backend code.
+
+:gift_heart: :movie_camera: [Selenium Course for Beginners - Web Scraping Bots, Browser Automation, Testing](https://www.youtube.com/watch?v=j7VZsCCnptM)
+
+:gift_heart: :closed_book: [Modern Web Automation With Python and Selenium](https://realpython.com/modern-web-automation-with-python-and-selenium/)
 
 ## 5 Databases
 
+Databases are used to store and manage data. There are many different types of databases, and each type is best suited to a different use case. In this section, we will cover the most common types of databases, and provide resources for learning how to use them in Python.
+
+[5.1 SQLite](#51-sqlite) \
+[5.2 Relational databases with SQLAlchemy](#52-relational-databases-with-sqlalchemy) \
+[5.3 Document databases wtih PyMongo and Mongoengine](#53-document-databases-wtih-pymongo-and-mongoengine) \
+[5.4 Graph databases with Neo4j](#54-graph-databases-with-neo4j)
+
 ### 5.1 SQLite
 
+SQLite is a lightweight and easy to use database that is built into Python. It is ideal for small projects and prototyping, but is not suitable for large-scale applications.
+
+:gift_heart: :movie_camera: [SQLite Databases With Python - Full Course](https://www.youtube.com/watch?v=byHcYRpMgI4)
+
+:gift_heart: :closed_book: [Data Management With Python, SQLite, and SQLAlchemy](https://realpython.com/python-sqlite-sqlalchemy/)
+
 ### 5.2 Relational databases with SQLAlchemy
+
+SQLAlchemy is a popular Python library that can be used to connect to and query relational databases. It is a powerful and flexible tool that can be used to build complex applications.
+
+:gift_heart: :movie_camera: [SQLAlchemy Turns Python Objects Into Database Entries](https://www.youtube.com/watch?v=AKQ3XEDI9Mw)
+
+:gift_heart: :closed_book: [SQLAlchemy Documenation Tutorial](https://docs.sqlalchemy.org/en/14/orm/tutorial.html)
 
 ### 5.3 Document databases wtih PyMongo and Mongoengine
  
