@@ -65,7 +65,7 @@ When learning the basic syntax however, do not be too concerned over the version
 
 :gift_heart: :movie_camera: [Freecodecamp - Python for Beginners](https://www.freecodecamp.org/news/python-programming-course/)
 
-:computer: [Freecodecamp - Python for Everybody](https://www.freecodecamp.org/learn/scientific-computing-with-python/); only the _Python for Everybody_ section is required for basic syntax, however, this section also contains a lot of other useful material that covers more advanced topics.
+:computer: [Freecodecamp - Python for Everybody](https://www.freecodecamp.org/learn/scientific-computing-with-python/); only the _Python for Everybody_ section is required for basic syntax, however, this resource also contains a lot of other useful material that covers more advanced topics.
 
 ### 1.2 Must-know developer skills
 
