@@ -358,81 +358,308 @@ SQLAlchemy is a popular Python library that can be used to connect to and query 
 :gift_heart: :closed_book: [SQLAlchemy Documenation Tutorial](https://docs.sqlalchemy.org/en/14/orm/tutorial.html)
 
 ### 5.3 Document databases wtih PyMongo and Mongoengine
+
+MongoDB is a popular document database that is used to store and manage data in JSON-like documents. MongoDB is a NoSQL database, which means that it does not use SQL to query data.
+
+In Python, we can use PyMongo to connect to and query MongoDB databases. PyMongo is a low-level library that is very flexible, but requires a lot of work to set up and configure. For this reason, we recommend using Mongoengine instead. Mongoengine is a high-level library that is built on top of PyMongo, and provides a more convenient and intuitive interface for working with MongoDB.
+
+:gift_heart: :closed_book: [MongoDB Basics](https://www.mongodb.com/basics); recommended reading for all new-comers to NoSQL
+
+:gift_heart: :movie_camera: [MongoDB with Python Crash Course - Tutorial for Beginners](https://www.youtube.com/watch?v=E-1xI85Zog8&t=2466s); introduction to MongoEngine
+
+:gift_heart: :closed_book: [Python and MongoDB: Connecting to NoSQL Databases](https://realpython.com/introduction-to-mongodb-and-python/); use this resource if you need to learn PyMongo in detail
+
+:moneybag: :closed_book: [MongoDB and Python](https://www.oreilly.com/library/view/mongodb-and-python/9781449312817/); great resource if you need to understand MongoDB in detail for high-performance applications
  
 ### 5.4 Graph databases with Neo4j
 
+Neo4j is a popular graph database that is used to store and manage data in a graph structure. Graph databases are ideal for storing and querying data that has a complex relationship structure.
+
+:gift_heart: :computer: [Neo4j Graph Academy](https://graphacademy.neo4j.com/); complete the _Beginners_ pathway followed by the _Building Neo4j Applications with Python_ course
+
+:gift_heart: :closed_book: [Neo4j Python Driver Documentation](https://neo4j.com/docs/driver-manual/1.7/get-started/)
+
+:money_bag: :closed_book: [Graph Algorithms: Practical Examples in Apache Spark and Neo4j](https://www.amazon.co.uk/Graph-Algorithms-Mark-Needham/dp/1492047686); for those who want to learn more about graph data analytics
+
 ## 6 Data Science and Machine Learning
 
-https://github.com/siboehm/awesome-learn-datascience#readme
+Python is becoming the predominant language for data science and machine learning. In this section, we will cover the most popular Python libraries for data science and machine learning.
+
+[Pre-requisites](#pre-requisites)\
+[6.1 JupyterLab](#61-jupyterlab) \
+[6.2 Numpy and Pandas](#62-numpy-and-pandas) \
+[6.3 Data visualisation with Matplotlib and Seaborn](#63-data-visualisation-with-matplotlib-and-seaborn) \
+[6.4 Interactive plotting and Dashboards with Plotly and Dash](#64-interactive-plotting-and-dashboards-with-plotly-and-dash) \
+[6.5 Streamlit](#65-streamlit) \
+[6.6 Scientific programming with SciPy](#66-scientific-programming-with-scipy) \
+[6.7 Statistical modelling with Statmodels](#67-statistical-modelling-with-statmodels) \
+[6.8 Machine learning with Scikit-Learn](#68-machine-learning-with-scikit-learn) \
+[6.9 Time-series analysis](#69-time-series-analysis) \
+[6.10 Deep learning](#610-deep-learning) \
+[6.11 NLP](#611-nlp) \
+[6.12 Probablistic models with PyMC3 and pomegranate](#612-probablistic-models-with-pymc3-and-pomegranate) \
+[6.13 Model explanation and interpretation](#613-model-explanation-and-interpretation)
+
+### Pre-requisites
+
+Data science and machine learning require a strong understanding of mathematics and statistics. If you are new to these topics, we recommend that you complete the following courses before proceeding with the resources in this section:
+
+:gift_heart: :movie_camera: [Statistics Fundamentals](https://www.youtube.com/watch?v=xxpc-HPKN28&t=24721s)
+
+:gift_heart: :movie_camera: [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
+:gift_heart:/:moneybag: :movie_camera: [Mathematics for Machine Learning on Coursera](https://gb.coursera.org/specializations/mathematics-machine-learning)
+
+:gift_heart: :closed_book: [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf); for advanced learners
 
 ### 6.1 JupyterLab
 
+JupyterLab is a popular open-source web application that can be used to create and share documents that contain live code, equations, visualisations and narrative text. JupyterLab is ideal for data science and machine learning, as it allows you to combine code, data and results in a single document.
+
+:gift_heart: :closed_book: [JupyterLab Documentation](https://jupyterlab.readthedocs.io/en/stable/)
+
+:gift_heart: :movie_camera: [How To Setup Jupyter Lab in 2022](https://www.youtube.com/watch?v=BtYXPY-A9_M)
+
 ### 6.2 Numpy and Pandas
+
+Numpy and Pandas are two of the most popular Python libraries for data science and machine learning. Numpy is a library for working with multi-dimensional arrays, and Pandas is a library for working with tabular data.
+
+:gift_heart: :movie_camera: [Data Analysis with Python Course - Numpy, Pandas, Data Visualization](https://www.youtube.com/watch?v=GPVsHOlRBBI)
+
+:moneybag: :closed_book: [Python for Data Analysis](https://www.amazon.co.uk/Python-Data-Analysis-3e-Wrangling/dp/109810403X); covers numpy, pandas, and data analysis in Jupyter
 
 ### 6.3 Data visualisation with Matplotlib and Seaborn
 
+Matplotlib and Seaborn are two of the most popular Python libraries for data visualisation. Matplotlib is a low-level library that provides a lot of flexibility, but requires a lot of work to set up and configure. Seaborn is a high-level library that is built on top of Matplotlib, and provides a more convenient and intuitive interface for data visualisation.
+
+:gift_heart: :closed_book: [Matplotlib Documentation](hhttps://matplotlib.org/stable/tutorials/index.html)
+
+:gift_heart: :movie_camera: [Matplotlib Tutorial : Matplotlib Full Course](https://www.youtube.com/watch?v=wB9C0Mz9gSo)
+
+:gift_heart: :closed_book: [Seaborn Documentation](https://seaborn.pydata.org/tutorial.html)
+
+:gift_heart: :movie_camera: [Seaborn Tutorial for Beginners in Python](https://www.youtube.com/watch?v=MyhBYkWarBE)
+
 ### 6.4 Interactive plotting and Dashboards with Plotly and Dash
+
+Plotly is an interactive data visualisation library that can be used to create interactive plots and dashboards. Dash is a Python library for building dashboards and web applications that utilise Plotly for data visualisation.
+
+:gift_heart: :closed_book: [Plotly Documentation](https://plotly.com/python/)
+
+:gift_heart: :movie_camera: [Plotly Tutorial](https://www.youtube.com/watch?v=GGL6U0k8WYA)
+
+:gift_heart: :closed_book: [Dash Documentation](https://dash.plotly.com/)
+
+:gift_heart: :movie_camera: [Getting Started With Dash](https://www.youtube.com/watch?v=XOFrvzWFM7Y)
 
 ### 6.5 Streamlit
 
+An alternative to Dash is Streamlit, a Python library for building web applications for data science and machine learning. Streamlit is ideal for building data science and machine learning prototypes, as it allows you to quickly build and deploy web applications that can be used to explore and visualise data, and to test machine learning models.
+
+:gift_heart: :closed_book: [Streamlit Documentation](https://docs.streamlit.io/library/get-started)
+
+:gift_heart: :movie_camera: [Build 12 Data Science Apps with Python and Streamlit - Full Course](https://www.youtube.com/watch?v=JwSS70SZdyM)
+
 ### 6.6 Scientific programming with SciPy
+
+SciPy is a collection of Python libraries for scientific computing. SciPy contains modules for linear algebra, optimisation, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks commonly encountered in scientific computing.
+
+:gift_heart: :closed_book: [SciPy Documentation](https://docs.scipy.org/doc/scipy/reference/)
+
+:gift_heart: :movie_camera: [SciPy Tutorial (2022): For Physicists, Engineers, and Mathematicians](https://www.youtube.com/watch?v=jmX4FOUEfgU)
+
+:moneybag: :closed_book: [Elegant SciPy](https://www.amazon.co.uk/Elegant-SciPy-Juan-Nunez-iglesias/dp/1491922877)
 
 ### 6.7 Statistical modelling with Statmodels 
 
+Statmodels is a Python library for statistical modelling. Statmodels contains modules for regression, time series analysis, classification, clustering, and other tasks commonly encountered in statistical modelling.
+
+:gift_heart: :closed_book: [Statmodels Documentation](https://www.statsmodels.org/stable/gettingstarted.html)
+
+:gift_heart: :movie_camera: [Statistical Modeling with Python](https://www.youtube.com/playlist?list=PLlbbWgBRF8EePgK40-i7aGU2_ky1yujgL)
+
 ### 6.8 Machine learning with Scikit-Learn
 
-https://scikit-posthocs.readthedocs.io/en/latest/
+Scikit-Learn is the most popular Python library for traditional machine learning (i.e. methodologies other than deep learning). Scikit-Learn contains modules for regression, classification, clustering, dimensionality reduction, model selection, preprocessing, feature extraction, feature selection, and other tasks commonly encountered in machine learning.
+
+:moneybag: :closed_book: [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.co.uk/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)
+
+:gift_heart: :movie_camera: [Scikit-learn Crash Course - Machine Learning Library for Python](https://www.youtube.com/watch?v=0B5eIE_1vpU)
 
 ### 6.9 Time-series analysis
 
+Time-series analysis is a subfield of statistics concerned with the analysis of time-series data. Python has a number of libraries for time-series analysis, including statsmodels, scikit-learn, and PyFlux.
+
+:moneybag: :closed_book: [Practical Time Series Analysis: Prediction with Statistics and Machine Learning](https://www.amazon.co.uk/Practical-Time-Analysis-Aileen-Nielsen/dp/1492041653)
+
+:gift_heart: :movie_camera: [Time Series Analysis in Python](https://www.youtube.com/watch?v=e8Yw4alG16Q)   
+
+:gift_heart: :closed_book: [PyFlux Documentation](https://pyflux.readthedocs.io/en/latest/)
+
 ### 6.10 Deep learning
 
-#### 6.10.1 Fundamentals
+Deep learning is a subfield of machine learning concerned with the use of artificial neural networks for the analysis of data. Python has a number of libraries for deep learning, including TensorFlow, PyTorch, and Keras. 
 
-#### 6.10.2 Tensorflow
+Those who wish to understand NLP, image analysis, and other complex classification problems should learn deep learning before progressing to other topics. 
 
-#### 6.10.3 PyTorch
+The choice of framework depends on the user's preference. TensorFlow is the most popular deep learning framework, but PyTorch is gaining popularity. Keras is a high-level API for TensorFlow and PyTorch, and is ideal for beginners.
+
+:gift_heart: :closed_book: :computer: :movie_camera: [FastAI Practical Deep Learning Course](https://course.fast.ai/)
+
+:moneybag: :closed_book: [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.co.uk/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646); ideal for learning tensorflow and keras
+
+:moneybag: :closed_book: [Deep Learning for Coders with fastai and PyTorch](https://www.amazon.co.uk/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527); ideal for learning pytorch
 
 ### 6.11 NLP
 
-#### 6.11.1 Fundamentals
+Natural language processing (NLP) is a subfield of computer science concerned with the analysis of natural language data. Python has a number of libraries for NLP, including NLTK, SpaCy, and Haystack.
 
-#### 6.11.2 NLTK
+#### 6.11.1 Fundamentals and NLTK
 
-#### 6.11.3 SpaCy
+:gift_heart: :movie_camera: [Introduction to Natural Language Processing ](https://www.youtube.com/watch?v=8S3qHHUKqYk)
 
-#### 6.11.4 Haystack
+:gift_heart: :closed_book: [Natural Language Processing with Python](https://www.nltk.org/book/)
+
+#### 6.11.2 SpaCy
+
+SpaCy is a production-ready Python library for NLP. SpaCy contains modules for tokenisation, part-of-speech tagging, dependency parsing, named entity recognition, text classification, rule-based matching, and other tasks commonly encountered in NLP.
+
+:gift_heart: :closed_book: [SpaCy Documentation](https://spacy.io/usage/spacy-101)
+
+:gift_heart: :movie_camera: [Natural Language Processing with spaCy](https://www.youtube.com/watch?v=dIUTsFT2MeQ)
+
+#### 6.11.3 Haystack
+
+Haystack is a Python library for question answering and information retrieval. Haystack contains modules for document retrieval, question answering, and other tasks commonly encountered in NLP.
+
+:gift_heart: :closed_book: [Haystack Documentation](https://haystack.deepset.ai/tutorials)
 
 ### 6.12 Probablistic models with PyMC3 and pomegranate
 
+Probablistic models are a class of statistical models that are used to model uncertainty. Probablistic models are used in a wide range of applications, including machine learning, computer vision, and natural language processing.
+Generally, probablistic models are used to model the probability distribution of data using bayesian statistics and monte carlo methods Probablistic models are used to make predictions about the future, and to explain the past.
+
+:gift_heart: :closed_book: [Probabilistic Programming and Bayesian Methods for Hackers](https://dataorigami.net/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+
+:gift_heart: :closed_book: [pomegranate Documentation](https://pomegranate.readthedocs.io/en/latest/)
+
 ### 6.13 Model explanation and interpretation
+
+Model explanation and interpretation is a subfield of machine learning concerned with the explanation and interpretation of machine learning models. Python has a number of libraries for model explanation and interpretation, including LIME, SHAP, and ELI5.
+
+:gift_heart: :closed_book: [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+
+:gift_heart: :movie_camera: [Explainable AI](https://www.youtube.com/playlist?list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU)
+
+:gift_heart: :closed_book: [LIME Documentation](https://lime-ml.readthedocs.io/en/latest/)
+
+:gift_heart: :closed_book: [SHAP Documentation](https://shap.readthedocs.io/en/latest/)
+
+:gift_heart: :closed_book: [ELI5 Documentation](https://eli5.readthedocs.io/en/latest/)
 
 ## 7 Advanced Python Developer Skills
 
+In this section, we will cover advanced Python developer skills, including package development and distribution, design patterns, Cython and C bindings, interacting with AWS and Azure, and distributed computing with PySpark.
+
+[7.1 Package development and distribution](#71-package-development-and-distribution)\
+[7.2 Design patterns](#72-design-patterns)\
+[7.3 Cython and C bindings](#73-cython-and-c-bindings)\
+[7.4 Interacting with AWS and Azure](#74-interacting-with-aws-and-azure)\
+[7.5 Distributed computing with PySpark](#75-distributed-computing-with-pyspark)
+
 ### 7.1 Package development and distribution
+
+:gift_heart: :closed_book: [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/)
+
+:gift_heart: :movie_camera: [Publishing (Perfect) Python Packages on PyPi](https://www.youtube.com/watch?v=GIF3LaRqgXo)
+
+:gift_heart: :closed_book: [Poetry Documentation](https://python-poetry.org/docs/)
 
 ### 7.2 Design patterns
 
-### 7.3 Cython and C bindings
+Design patterns are general solutions to common problems in software design.
+
+:gift_heart: :closed_book: [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
+
+### 7.3 Cython
+
+Cython is a superset of Python that allows you to write Python code that is compiled into C. Cython is used to write Python code that is fast enough to be used in production.
+
+:gift_heart: :closed_book: [Cython Tutorial](https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html)
+
+:gift_heart: :movie_camera: [Speed Up Your Code With Cython](https://www.youtube.com/watch?v=Ic1oE6SEOBs)
 
 ### 7.4 Interacting with AWS and Azure
 
+Python has a number of libraries for interacting with AWS and Azure, including boto3 and Azure SDKs.
+
+:gift_heart: :closed_book: [Python, Boto3, and AWS S3: Demystified](https://realpython.com/python-boto3-aws-s3/)
+
+:gift_heart: :closed_book: [Use the Azure libraries (SDK) for Python](https://learn.microsoft.com/en-us/azure/developer/python/sdk/azure-sdk-overview)
+
 ### 7.5 Distributed computing with PySpark
+
+PySpark is a Python library for distributed computing. PySpark is used to write Python code that is executed in a distributed environment.
+
+:moneybag: :closed_book: [Advanced Analytics with PySpark](https://www.amazon.co.uk/Advanced-Analytics-PySpark-Patterns-Learning/dp/1098103653)
+
+:gift_heart: :movie_camera: [PySpark Tutorial](https://www.youtube.com/watch?v=_C8kWso4ne4)
 
 ## 8 Advanced Biomedical Python Programming
 
+Python is becoming popular for bioinformatics and biomedical data analysis, especially with the rise of multi-omics technologies. In this section, we will cover advanced Python skills for bioinformatics and biomedical data analysis, including survival analysis, single cell analysis, and discrete event simulation.
+
+[8.1 Survival analysis with lifelines](#81-survival-analysis-with-lifelines)\
+[8.2 BioPython](#82-biopython)\
+[8.3 Nextflow](#83-nextflow)\
+[8.4 Single cell analysis with ScanPy](#84-single-cell-analysis-with-scanpy)\
+[8.5 Cytometry data analysis with CytoPy](#85-cytometry-data-analysis-with-cytopy)\
+[8.6 Discrete event simulation with SimPy](#86-discrete-event-simulation-with-simpy)
+
 ### 8.1 Survival analysis with lifelines
+
+Survival analysis is a class of statistical models that are used to model the time until an event occurs. Survival analysis is used in a wide range of applications, including clinical trials, epidemiology, and reliability engineering.
+
+:gift_heart: :closed_book: [Survival Analysis with lifelines](https://lifelines.readthedocs.io/en/latest/Survival%20Analysis%20intro.html)
 
 ### 8.2 BioPython
 
+BioPython is a library for computational molecular biology with a focus on bioinformatics and sequence analysis.
+
+:gift_heart: :closed_book: [Biopython Tutorial](https://biopython.org/DIST/docs/tutorial/Tutorial.html)
+
+:gift_heart: :movie_camera: [Bioinformatics with Biopython - Full Course](https://www.youtube.com/watch?v=ocA2IMe7dpA)
+
 ### 8.3 Nextflow
+
+Nextflow is a workflow management system for computational biology. Nextflow is used to write pipelines for bioinformatics and biomedical data analysis.
+
+:gift_heart: :closed_book: [Nextflow Documentation](https://www.nextflow.io/docs/latest/index.html)
+
+:gift_heart: :movie_camera: [Nextflow Training Workshop](https://www.youtube.com/playlist?list=PLPZ8WHdZGxmUVZRUfua8CsjuhjZ96t62R)
 
 ### 8.4 Single cell analysis with ScanPy
 
+ScanPy is a Python library for single cell analysis for technologies such as single cell RNA-seq and single cell ATAC-seq.
+
+:gift_heart: :closed_book: [ScanPy Tutorial](https://scanpy-tutorials.readthedocs.io/en/latest/)
+
+:gift_heart: :movie_camera: [Single Cell Analysis with ScanPy](https://www.youtube.com/playlist?list=PL4rcQcNPLZxWQQH7LlRBMkAo5NWuHX1e3)
+
+:gift_heart: :movie_camera: :computer: [Machine Learning for Single Cell Analysis](https://www.krishnaswamylab.org/workshop)
+
 ### 8.5 Cytometry data analysis with CytoPy
+
+CytoPy is a Python library for cytometry data analysis.
+
+:gift_heart: :closed_book: [CytoPy Tutorials](https://github.com/burtonrj/CytoPyManuscript)
 
 ### 8.6 Discrete event simulation with SimPy
 
+SimPy is a Python library for discrete event simulation. Discrete event simulation is used to model the behaviour of complex systems.
 
-https://github.com/vinta/awesome-python
-https://github.com/danielecook/Awesome-Bioinformatics
+:gift_heart: :closed_book: [SimPy Documentation](https://simpy.readthedocs.io/en/latest/)
+
+:gift_heart: :movie_camera: [Running simulations in Python](https://www.youtube.com/watch?v=8SLk_uRRcgc)
+
+:gift_heart: :movie_camera: [Launching a new warehouse with SimPy at Rent the Runway](https://www.youtube.com/watch?v=693UiPq6mII)
