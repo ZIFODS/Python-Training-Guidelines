@@ -80,7 +80,7 @@ These are the skills that you should have independent of Python programming know
 
 :gift_heart: :movie_camera: [Introduction to Git and GitHub](https://youtu.be/RGOj5yH7evk)
 
-:gift_heart: :movie_camera: [Introduction to Git and GitHub](https://youtu.be/Uszj_k0DGsg )
+:gift_heart: :movie_camera: [Git for Professionals Tutorial](https://youtu.be/Uszj_k0DGsg )
 
 #### 1.2.2 Basic command line knowledge
 
