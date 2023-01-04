@@ -36,7 +36,7 @@ Separate to the training material, you will find a guide on how you should setup
 
 ---
 
-## Roadmap
+# Roadmap
 
 The roadmap below gives a high level overview of the stages recommended in our training guidelines.
 
@@ -45,6 +45,8 @@ The roadmap below gives a high level overview of the stages recommended in our t
 Within each stage of the Python training roadmap there are options as to what technologies to learn. We recommend that you focus on one option to begin with and return to additional material at the end of the roadmap.
 
 ---
+
+# Minimal required training
 
 ## 1 The Basics
 
@@ -260,9 +262,28 @@ Writing documentation for your code is a great way to ensure that your code is e
 
 ### 3.5 Type hints
 
+At zifo we recommend using Type hints in your code. Type hints are a great way to ensure that your code is easy to understand and use, and can help you catch bugs before they happen.
+
+:gift_heart: :movie_camera: [Python Typing - Type Hints & Annotations](https://www.youtube.com/watch?v=QORvB-_mbZ0)
+
+:gift_heart: :closed_book: [Type Hints –– An Introduction](https://cpske.github.io/ISP/type-hints/introduction)
+
+
+# Advanced optional training
+
+Congratulations on completing the core Python sections and mandatory content! In this section, we will link to resources that cover some of the most common advanced Python concepts. These are not mandatory for all Python developers at Zifo, but are highly recommended for those who are interested in learning more about Python.
+
+You can choose from the following topics:
+
+* Web development frameworks - useful for those who want to build web applications
+* Databases - useful for web developers and data scientists alike
+* Data Science and Machine Learning - useful for data scientists and machine learning engineers
+* Other advanced topics - useful for all Python developers
+* Advanced Biomedical Python Programming - useful for bioinformaticians and biomedical engineers
+
 ## 4 Web development frameworks
 
-Congratulations, you have completed the core Python sections and mandatory content! It is no
+There are many different web development frameworks that can be used to build web applications in Python. Here we will cover resources for the most popular frameworks. It is best to focus on one framework to begin with, and then move on to others once you have a good understanding of web development in Python.
 
 ### 4.1 Flask
 
